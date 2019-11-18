@@ -1,7 +1,8 @@
-package pk.inlab.app.justweather
+package pk.inlab.app.justweather.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import pk.inlab.app.justweather.R
 
 class MainActivity : AppCompatActivity() {
 

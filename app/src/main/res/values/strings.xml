@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Just Weather</string>
+    <string name="sukkur_placeholder">Sukkur</string>
+    <string name="date_placeholder">Thursday 24 October 2019</string>
+    <string name="temp_placeholder">43 ℃</string>
+    <string name="wind_speed_placeholder">9km/h</string>
+    <string name="wind_direction_placeholder">9km/h</string>
+    <string name="fake_temp">23</string>
+    <string name="humidity_placeholder">78%</string>
+    <string name="degree">\u00B0</string>
+    <string name="degree_c">\u2103</string>
+    <string name="degree_f">\u2109</string>
+    <string name="condition_placeholder">Cloudy</string>
+
+
 </resources>
