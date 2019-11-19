@@ -18,9 +18,8 @@
             android:layout_marginStart="@dimen/_20dp"
             android:layout_marginTop="@dimen/_16dp"
             android:layout_marginEnd="@dimen/_20dp"
-            android:text="@string/sukkur_placeholder"
             android:textColor="@android:color/black"
-            android:textSize="36sp"
+            android:textSize="@dimen/_36sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.038"
             app:layout_constraintStart_toStartOf="parent"
@@ -30,10 +29,9 @@
             android:id="@+id/tv_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="@dimen/_20dp"
             android:layout_marginTop="@dimen/_8dp"
-            android:layout_marginEnd="20dp"
-            android:text="@string/date_placeholder"
+            android:layout_marginEnd="@dimen/_20dp"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.048"
@@ -76,20 +74,18 @@
             android:layout_marginStart="176dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="176dp"
-            android:text="@string/temp_placeholder"
             android:textColor="#000000"
             android:textSize="64sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iv_main_condition" />
 
-        <TextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_main_condition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="170dp"
             android:layout_marginEnd="170dp"
-            android:text="@string/condition_placeholder"
             android:textSize="@dimen/_22sp"
             android:textColor="@color/colorOceanBlue"
             android:padding="@dimen/_8dp"
@@ -106,7 +102,7 @@
             android:layout_marginTop="@dimen/_8dp"
             android:layout_marginEnd="30dp"
             android:orientation="horizontal"
-            android:weightSum="4"
+            android:weightSum="3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_main_condition">
@@ -130,34 +126,8 @@
                     android:id="@+id/tv_wind_speed_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/wind_speed_placeholder"
                     android:textColor="@android:color/black"
-                    android:textSize="@dimen/_18sp" />
-
-            </androidx.appcompat.widget.LinearLayoutCompat>
-
-            <androidx.appcompat.widget.LinearLayoutCompat
-                android:id="@+id/llc_wind_direction_container"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/iv_wind_direction_sign"
-                    android:layout_width="@dimen/_28dp"
-                    android:layout_height="@dimen/_28dp"
-                    app:srcCompat="@drawable/ic_wind_direction_sign" />
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/tv_wind_direction_value"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/wind_direction_placeholder"
-                    android:textColor="@android:color/black"
-                    android:textSize="@dimen/_18sp" />
+                    android:textSize="@dimen/_22sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -180,9 +150,8 @@
                     android:id="@+id/tv_humidity_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/humidity_placeholder"
                     android:textColor="@android:color/black"
-                    android:textSize="@dimen/_18sp" />
+                    android:textSize="@dimen/_22sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -201,13 +170,12 @@
                     android:layout_height="@dimen/_28dp"
                     app:srcCompat="@drawable/ic_thermometer_sign" />
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/tv_max_temp_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/fake_temp"
                     android:textColor="@android:color/black"
-                    android:textSize="@dimen/_18sp" />
+                    android:textSize="@dimen/_22sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
